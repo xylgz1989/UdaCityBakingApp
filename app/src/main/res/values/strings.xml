@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Baking Time</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_recipestep_list">Recipe Steps</string>
+    <string name="title_recipestep_detail">Recipe Step Detail</string>
+    <string name="title_recipe_ingredient">Recipe Ingredients</string>
+
+    <string name="load_recipe_error">load  recipe failed</string>
+    <string name="previous_step">previous step</string>
+    <string name="next_step">next step</string>
+
+    <string name="ingredient_name">ingredient</string>
+    <string name="amount">quantity</string>
+    <string name="measure_unit">measure</string>
+    <string name="this_is_final_step">this is final step</string>
+    <string name="this_is_first_step">this is first step</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">设置</string>
+    <string name="title_recipestep_list">菜谱步骤</string>
+    <string name="title_recipestep_detail">步骤详情</string>
+    <string name="title_recipe_ingredient">菜谱原料</string>
+
+    <string name="load_recipe_error">加载菜谱失败</string>
+    <string name="previous_step">上一步</string>
+    <string name="next_step">下一步</string>
+
+    <string name="ingredient_name">原料</string>
+    <string name="amount">数量</string>
+    <string name="measure_unit">单位</string>
+
+    <string name="this_is_final_step">这是最后一步</string>
+    <string name="this_is_first_step">这是第一步</string>
+</resources>

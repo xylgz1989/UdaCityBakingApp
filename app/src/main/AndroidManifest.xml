@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.udacity.xyl.udacitybakingapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".recipeList.RecipeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".recipeStep.RecipeStepListActivity"
+            android:label="@string/title_recipestep_list"
+            android:parentActivityName=".recipeList.RecipeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.udacity.xyl.udacitybakingapp.recipeList.RecipeActivity" />
+        </activity>
+        <activity
+            android:name=".recipeStep.RecipeStepDetailActivity"
+            android:label="@string/title_recipestep_detail"
+            android:parentActivityName=".recipeStep.RecipeStepListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.udacity.xyl.udacitybakingapp.recipeStep.RecipeStepListActivity" />
+        </activity>
+        <activity android:name=".recipeIngredients.RecipeIngredientActivity"
+            android:label="@string/title_recipe_ingredient"
+            android:parentActivityName=".recipeStep.RecipeStepListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.udacity.xyl.udacitybakingapp.recipeStep.RecipeStepListActivity" />
+        </activity>
+    </application>
+
+</manifest>

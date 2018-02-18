@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/tv_ingredient_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="@string/ingredient_name"
+        android:gravity="center"
+        android:layout_margin="@dimen/text_margin"
+        android:layout_weight="3"/>
+    <TextView
+        android:id="@+id/tv_ingredient_amount"
+        android:layout_width="0dp"
+        android:text="@string/amount"
+        android:gravity="center"
+        android:layout_margin="@dimen/text_margin"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/tv_ingredient_measure_unit"
+        android:layout_width="0dp"
+        android:text="@string/measure_unit"
+        android:gravity="center"
+        android:layout_margin="@dimen/text_margin"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>
